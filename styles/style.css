@@ -19,6 +19,7 @@ list-style: none;
 display: flex;
 gap: 32px;
 font-size: 20px;
+
   }
   .btnfr{
     display: flex;
@@ -26,12 +27,8 @@ font-size: 20px;
   .navicon{
     margin-right: 24px;
 margin-top: 18px;
-   
-  }
-  i{
-    padding-right: 20px;
+   padding-right: 20px;
     font-size: 30px;
- 
   }
  .btnlog{
     width: 117px;
@@ -58,6 +55,7 @@ margin-left: 12px;
  .ban{
    justify-items: center;
     margin-top: 90px;
+    background: linear-gradient(180.00deg, rgb(255, 255, 255),rgb(239, 235, 227) 100%);
  }
  .banh{
     font-size: 56px;
@@ -87,4 +85,70 @@ font-size: 36px;
 font-weight: 600;
 line-height: 45px;
 letter-spacing: 0%;
+}
+.scard{
+    display: flex;
+   margin-right: 140px;
+   justify-content: space-between;
+}
+.scard1{
+    border-radius: 16px;
+background: rgb(239, 235, 227);
+width: 424px;
+height: 367px;
+justify-items: center;
+padding: 32px;
+}
+.scardh{
+    color: rgb(17, 17, 17);
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+}
+.scardp{
+    color: rgb(17, 17, 17);
+font-size: 20px;
+font-weight: 300;
+line-height: 25px;
+text-align: center;
+}
+/*product*/
+.product{
+    background: rgb(239, 235, 227);
+    padding: 140px;
+    margin-top: 140px;
+}
+.prh{
+    color: rgb(23, 152, 0);
+font-size: 36px;
+font-weight: 600;
+line-height: 45px;
+
+}
+.dis{
+    border-radius: 10px;
+    background-color: rgb(74, 208, 74);
+width: 424px;
+height: 402px;
+padding-top: 30px;
+padding-left: 24px;
+
+background-image: url('../c2-assets/vegetable-offer.png');
+background-repeat: no-repeat;
+background-position: right bottom;
+}
+.dh{
+    font-size: 30px;
+    color: white;
+}
+.dp{
+    font-size: 18px;
+}
+.dbtn{
+    width: 146px;
+height: 45px;
+border-radius: 10px;
+border: none;
+font-size: 20px;
+font-weight: 500;
 }
