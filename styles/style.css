@@ -1,0 +1,90 @@
+
+.sora-normal {
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  nav{
+    margin-left: 140px;
+    margin-top: 24px;
+    margin-right: 140px;
+  }
+  .navdiv{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navli>ul{
+list-style: none;
+display: flex;
+gap: 32px;
+font-size: 20px;
+  }
+  .btnfr{
+    display: flex;
+  }
+  .navicon{
+    margin-right: 24px;
+margin-top: 18px;
+   
+  }
+  i{
+    padding-right: 20px;
+    font-size: 30px;
+ 
+  }
+ .btnlog{
+    width: 117px;
+height: 45px;
+box-sizing: border-box;
+font-size: 20px;
+font-weight: 400;
+border: 1px solid rgb(23, 152, 0);
+border-radius: 8px;
+
+ }
+ .btnreg{
+    width: 146px;
+height: 45px;
+    border-radius: 8px;
+background: rgb(23, 152, 0);
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 400;
+border: none;
+margin-left: 12px;
+ }
+ /*banner*/
+ .ban{
+   justify-items: center;
+    margin-top: 90px;
+ }
+ .banh{
+    font-size: 56px;
+font-weight: 600;
+line-height: 71px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ .banhcol{
+    color: rgb(23, 152, 0);
+ }
+ .banp{
+    color: rgb(17, 17, 17);
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+ }
+/*services*/
+.services{
+    margin-left: 140px;
+}
+.srvh{
+    color: rgb(23, 152, 0);
+font-size: 36px;
+font-weight: 600;
+line-height: 45px;
+letter-spacing: 0%;
+}
