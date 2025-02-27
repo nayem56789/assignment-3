@@ -260,6 +260,41 @@ background: rgb(255, 255, 255);
 display: flex;
 
 }
+.cardbg20{
+    width: 275px;
+    height: 118px;
+    padding: 20px;
+    box-sizing: border-box;
+border: 1px solid rgba(17, 17, 17, 0.1);
+border-radius: 10px;
+
+background: rgb(255, 255, 255);
+display: flex;
+
+}
+@media screen and (max-width: 576px){
+    .allpro{
+        flex-direction: column;
+      max-width: 336px;
+      margin-left: -225px;
+    }
+    .prh{
+        margin-left: -250px;
+    }
+    .dis{
+        margin-bottom: 20px;
+    }
+    .nodis{
+        grid-template-columns: 2fr 3fr;
+        gap: 20px;
+    }
+    .cardbg{
+        max-width: 215px;
+    }
+    .cardbg20{
+        display: none;
+    }
+}
 /*arriaval*/
 .aomain{
     justify-items: center;
@@ -339,6 +374,55 @@ margin-bottom: 20px;
 .india{
     margin-top: 40px;
 }
+@media screen and (max-width: 576px){
+    .srvh{
+        margin-left: -370px;
+    }
+    .ah{
+        margin-left: -270px;
+    }
+    .aodiv{
+        flex-direction: column;
+        max-width: 336px;  
+        gap: 0px;
+       
+    }
+    .dwdiv{
+        max-width: 355px;
+        max-height: 290px;
+        margin-left: -115px;
+       
+    }
+    .dwbtn, .dwlogo{
+        max-width: 177.93px;
+        max-height: 50px;
+        font-size: medium;
+        margin-left: -15px;
+        
+    }
+    .dwp{
+        font-size: 1.8rem;
+        margin-left: -15px;
+     margin-top: -5px;
+    }
+    .dwimg{
+        width: 300px;
+height: 300px;
+margin-left: -20px;
+    }
+    .inddiv{
+        max-width: 355px;
+        max-height: 290px;
+        margin-left: -115px;
+    }
+    .indbtn, .indlogo{
+        max-width: 177.93px;
+        max-height: 50px;
+        font-size: medium; 
+        margin-left: -20px;
+        margin-right: 50px;
+    }
+}
 /*footer*/
 .lasta{
     justify-items: center;
@@ -390,6 +474,42 @@ font-size: 1.25rem;
 font-weight: 400;
 line-height: 25px;
 }
+@media screen and (max-width: 576px){
+    
+    .footch{
+        flex-direction: column;
+        max-width: 250px;
+        margin-left: -115px;
+        justify-items: center;
+    }
+.chimg{
+    width: 232px;
+height: 182px;
+margin-top: -70px;
+margin-bottom: -125px;
+
+}
+.chin{
+    width: 312px;
+height: 42px;
+margin-left: -30px;
+}
+.chh{
+    font-size: 1.8rem;
+    margin-left: -20px;
+    color: rgb(23, 152, 0);
+    margin-right: -40px;
+    text-align: center;
+}
+.chp{
+    margin-left: -80px;
+    margin-right: -100px;
+    text-align: center;
+}
+.chbtn{
+   margin-left: 40px;
+}
+}
 .fullfoot{
     height: 658px;
 background: rgb(23, 152, 0);
@@ -423,4 +543,28 @@ line-height: 294%;
 }
 .icon{
    padding-right: 29px;
+}
+@media screen and (max-width: 576px){
+     .fullfoot{
+        flex-direction: column;
+        margin-left: -170px;
+        
+     }
+     .footlogo{
+        margin-top: 230px;
+     }
+     .footli{
+        margin-top: -30px;
+        text-align: left;
+        margin-left: -250px;
+        gap: 0px;
+     }
+     .footfoll{
+        text-align: left;
+        margin-top: -30px;
+        margin-left: -95px;
+     }
+     .icon{
+      
+     }
 }
