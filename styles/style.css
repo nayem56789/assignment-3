@@ -74,7 +74,7 @@ margin-left: 12px;
         font-size: xx-large;
         margin-top: -55px;
         color: rgb(70, 133, 60);
-        margin-right: -10px;
+        margin-right: -90px;
     }
     .navdiv{
         border-bottom: 1px solid rgb(70, 133, 60);
@@ -129,11 +129,12 @@ text-align: center;
     max-width: 336px;
         max-height: 413px;
        justify-items: left;
-       margin-left: -100px;
+      
 }
 .video, .vih{
-    margin-left: -113px;
+    justify-content: center;
     max-width: 420px;
+    margin-left: -20px;
 }
 
 }
@@ -181,10 +182,10 @@ text-align: center;
 @media screen and (max-width: 576px){
     .scard{
         flex-direction: column;
-        margin-left:-110px;
+       margin-left: -40px;
     }
     .scard1{
-        width: 356.55px;
+       
 height: 308.61px;
     }
 }
@@ -275,11 +276,11 @@ display: flex;
 @media screen and (max-width: 576px){
     .allpro{
         flex-direction: column;
-      max-width: 336px;
-      margin-left: -225px;
+      margin-right: -15px;
+  
     }
     .prh{
-        margin-left: -250px;
+        margin-left: -170px;
     }
     .dis{
         margin-bottom: 20px;
@@ -376,10 +377,10 @@ margin-bottom: 20px;
 }
 @media screen and (max-width: 576px){
     .srvh{
-        margin-left: -370px;
+        margin-left: -340px;
     }
     .ah{
-        margin-left: -270px;
+        margin-left: -180px;
     }
     .aodiv{
         flex-direction: column;
@@ -390,7 +391,7 @@ margin-bottom: 20px;
     .dwdiv{
         max-width: 355px;
         max-height: 290px;
-        margin-left: -115px;
+        margin-left: -73px;
        
     }
     .dwbtn, .dwlogo{
@@ -413,7 +414,7 @@ margin-left: -20px;
     .inddiv{
         max-width: 355px;
         max-height: 290px;
-        margin-left: -115px;
+        margin-left: -73px;
     }
     .indbtn, .indlogo{
         max-width: 177.93px;
@@ -479,7 +480,7 @@ line-height: 25px;
     .footch{
         flex-direction: column;
         max-width: 250px;
-        margin-left: -115px;
+        margin-left: -40px;
         justify-items: center;
     }
 .chimg{
@@ -562,9 +563,9 @@ line-height: 294%;
      .footfoll{
         text-align: left;
         margin-top: -30px;
-        margin-left: -95px;
+        margin-left: -180px;
      }
      .icon{
-      
+      margin-left: -100px;
      }
 }
